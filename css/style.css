@@ -39,7 +39,7 @@ filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=60,FinishOpacity=15, Styl
 -moz-opacity:0.6; /* Moz + FF */
 opacity:0.6; /* css3 */  -webkit-transition: all ease .3s; -o-transition: all ease .3s; -moz-transition: all ease .3s; -ms-transition: all ease .3s; transition: all ease .3s;}
 header > div > div:nth-last-child(2):hover {background: var(--c1);}
-header .about img {border: 5px solid var(--c2); border-radius:50px; width: 50px;}
+header .about img {border: 5px solid var(--c2); border-radius:50px; width: 50px; transform: rotate(-20deg);}
 
 header .menu > li > a {padding: 18px 20px; display:inline-block; min-width: 200px; font-size: 15px;}
 .menu > li:nth-child(1)  {background: var(--c3);}
