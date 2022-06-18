@@ -105,12 +105,19 @@ $(function(){
 
 // copy email
 function copyToClipboard(element) {
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val($(element).text()).select();
-  document.execCommand("copy");
-  $temp.remove();
-}
+	var $temp = $("<input>");
+	$("body").append($temp);
+	$temp.val($(element).text()).select();
+	document.execCommand("copy");
+	$temp.remove();
+	$('.alert01').show().fadeOut(3000);
+
+  }
+  
+// footer
+var year = new Date().getFullYear();
+var month = new Date().getMonth() + 1;
+document.getElementById('footerYear').innerHTML = year + '/' + month;
 
 // colorbox
 $(".colorbox").colorbox({iframe:true, width:"90%", maxWidth:"800px", height:"90%", fixed:"false"});
