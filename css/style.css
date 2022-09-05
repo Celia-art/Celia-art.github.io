@@ -51,6 +51,7 @@ header .menu > li > a {padding: 18px 20px; display:inline-block; min-width: 200p
 .c2  {color: var(--c4);}
 .c3  {color: var(--c5);}
 .c4  {color: var(--c6);}
+.text_s {font-size: 13px;}
 
 header .name {font-size: 22px; line-height: 70px; text-shadow: 10px 0px 30px var(--c7); display:none; float:left;}
 header .name span {font-weight: bold; text-transform: uppercase; letter-spacing: 1px;}
